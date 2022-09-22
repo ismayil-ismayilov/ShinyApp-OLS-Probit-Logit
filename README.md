@@ -14,10 +14,10 @@ quitting or removing any environment data.
 * NOTE: In order to check the app, you may use "testing_file.csv" file which included among the all other files.
 
 ## ADVANCED PROGRAMMING ELEMENTS
-* 1. Shiny + creating analytical dashboards
-* 2. Automation of scripts and reports (RMarkdown)
-* 3. Advanced data processing with dplyr, dtplyr, tidyr
-* 4. Own functions in R (including defensive programming)
+* Shiny + creating analytical dashboards
+* Automation of scripts and reports (RMarkdown)
+* Advanced data processing with dplyr, dtplyr, tidyr
+* Own functions in R (including defensive programming)
 
 
 ### This project is done in a group of two people.
