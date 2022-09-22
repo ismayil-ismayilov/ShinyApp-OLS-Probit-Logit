@@ -1,0 +1,91 @@
+---
+output: html_document
+params:
+  author: NA
+  title: NA
+  df: NA
+  df_description: NA
+  introduction: NA
+  conclusion: NA
+  Plot1: NA
+  Plot1_desc: NA
+  Plot2: NA
+  Plot2_desc: NA
+  model1: NA
+  model1_desc: NA
+  model2: NA
+  model2_desc: Na
+
+title: "`r params$title`"
+author: "`r params$author`"
+
+---
+
+
+## Introduction
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$introduction
+```
+
+
+## Data set
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$df_description
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$df %>% head()
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$Plot1_desc
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$Plot1
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$Plot2_desc
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$Plot2
+```
+
+## OLS model
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$model1_desc
+```
+
+### summary:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$model1
+```
+
+## Probit model
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$model2_desc
+```
+
+### summary:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$model2
+```
+
+
+## CONCLUSION
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+params$conclusion
+```
+
+
+
+
