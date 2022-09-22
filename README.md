@@ -13,6 +13,8 @@ quitting or removing any environment data.
 * * * i. Error in hasGroups(choices) : object 'sep' not found ii. Errorinforce(ui):object'ui'notfound
 * NOTE: In order to check the app, you may use "testing_file.csv" file which included among the all other files.
 
+### For more detailed information, please, check the Presentation.PDF file.
+
 ## ADVANCED PROGRAMMING ELEMENTS
 * Shiny + creating analytical dashboards
 * Automation of scripts and reports (RMarkdown)
